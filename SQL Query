@@ -1,0 +1,771 @@
+CREATE TABLE host_info(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+    host_name TEXT,
+    host_id INTEGER,
+    airbnb_id INTEGER
+);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Mireia and Maria", 71615, 18674);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Etain Marine", 90417, 23197);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Nick", 135703, 32711); 
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Andres", 73163, 34981);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Michel", 152070, 35318);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Ester", 158596, 36763);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Joaquin", 177617, 40983);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Teresa", 183340, 41952);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Etain Marine", 90417, 46153);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Nick", 135703, 49968);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Anil", 297545, 61444);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Atan", 340570, 68547);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Ariadna", 366428, 71520);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Watermen_Barcelona_apt", 366654, 71553);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Xavier", 37625, 72436);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Anna", 383697, 73455);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Nick", 135703, 73683);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Anil", 297545, 73693);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Anil", 297545, 73700);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Alcambracelona", 396363, 75003);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Mireia", 400154, 75411);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Xavier", 431839, 80004);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Wonderful Barcelona", 700165, 83283);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("David Y Maria", 488117, 89756);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Dalila", 509260, 95719);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Francesc", 497450, 97529);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Cristina", 556626, 107437);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Alcambarcelona", 396363, 110041);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sandra", 567180, 112538);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sandra", 567180, 118228);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sebastian", 635253, 128463);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Dolors", 641496, 130227);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Teresa", 664196, 135513);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Maria", 610674, 136670);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sandra", 567180, 138055);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Reinhard", 620454, 142121);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Wonderful Barcelona", 700165, 144471);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Antuan", 711907, 147275);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Omar", 737399, 153376);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Annais", 474355, 154437);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sandra", 567180, 162091);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Horacio", 713364, 163536);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Mireia", 400154, 171646);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Mireia", 400154, 171816);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sandra", 567180, 174382);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Joan", 860071, 179619);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Josep Llua-s", 896554, 186540);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Watermen Barcelona Apartments", 366654, 188267);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Elisa", 919480, 190348);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Julia", 953719, 196021);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sandra", 567180, 196196);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("M Angeles, Federico", 632830, 197267);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Akira", 971768, 198958);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Teresa", 440825, 19794);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Alejandro", 1013855, 206122);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Minerva", 1014050, 206167);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Elena", 1033366, 209673);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Elisagela Cristina", 1037730, 213368);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Fran", 1118232, 216699);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Maria y Lucas", 1190018, 228638);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Francesca", 1227290, 234375);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Josa Luis", 1257705, 239821);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Enjoy", 15884961, 242335);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Luis", 1310304, 250016);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Kristjan y Ana", 1298586, 252232);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Luis", 1310304, 255195);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Lidia", 1348378, 255195);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Petrutz", 1350468, 256677);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Jasmin", 1352184, 256982);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Esther y Gemma", 1377744, 264125);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Kitty", 1392322, 265491);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sergio", 1404293, 267816);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Midtwon", 1405013, 268017);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Midtown", 1405013, 268022);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Jeremies", 1411775, 269467);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Sonia", 155686, 271996);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Mar", 1425070, 272282);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Marta", 1429552, 273229);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Angel", 1432835, 273932);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Jaume", 1435464, 275336);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Jaume", 1435464, 275346);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Juame", 1435464, 275350);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Francisca", 1443815, 276324);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Jesus", 1444707, 276527);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Pedro", 1451449, 278036);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Pedro", 1451449, 281978);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Pedro", 1451449, 281985);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Valentin", 1354169, 282679);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Francesco", 1475411, 283231);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Esther y Gemma", 1377744, 290592);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Oscar", 612665, 295200);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Aga", 1541784, 297066);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Carlos", 1561612, 308166);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Marcello", 1994100, 315769);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("The Loft", 1642180, 320506);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Alberto", 1657312, 323854);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Isidro", 1669001, 326464);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Pedro", 1451449, 327133);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Juanmi", 1687383, 330723);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Virginia", 1687524, 330766);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Phil y Fiona", 893805, 330957);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Lee", 440881, 331026);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Apkeys", 127482361, 335861);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Marc", 1716315, 337755);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Estela", 1738696, 342641);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Silvia y Luas", 1744516, 343861);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Silvia y Luas", 1744516, 343864);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Silvia y Luas", 1744516, 343866);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Patricia", 1744964, 343972);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Lucia", 1238225, 345129);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Juame", 1435464, 351395);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Fidel", 1786501, 352772);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Marta", 1791076, 353640);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Silvia", 1809535, 357576);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Katja", 1809119, 357958);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Mar", 1819662, 359814);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Rosa", 1820272, 359841);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Ayal", 1837053, 363601);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Mires", 1839136, 364030);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Ralph", 1260560, 365911);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Acomodis Apartments", 1447144, 370665);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Jesus", 1444707, 377161);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Khris", 1906952, 379868);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Acomodis Apartments", 1447144, 1751133);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("The Punset Family", 175113, 384155);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Juanmi", 674212, 384464);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Mafe", 3775349, 385049);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Manel", 1968590, 393717);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Ana", 1995385, 399772);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Xabier", 2004002, 401481);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Roger", 2034854, 408599);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Gabriela y Miguel", 542867, 412649);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Pedro", 1451449, 414786);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Kris", 2074943, 414786);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Pau", 2108468, 424137);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Victor y Paula", 2116153, 425639);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Andre", 898600, 432482);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Xabier", 2004002, 437886);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Rosa Mara-a", 2176121, 438102);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Javier", 2181314, 439057);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Dani", 2041901, 440427);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Dimitry", 2201772, 443110);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Johanna", 2202284, 443222);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Franacesca", 2204578, 443222);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Elvira", 2218343, 446665);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Victor", 1267680, 449854);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Victor", 1267680, 451758);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Bruna", 2268672, 456333);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Midtown", 1405013, 457195);
+INSERT INTO host_info (host_name, host_id, airbnb_id) VALUES ("Juan Carlos", 2298462, 462557);
+
+
+
+
+
+
+
+CREATE TABLE neighborhood(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+    host_info_id INTEGER,
+    neighborhood_group TEXT,
+    neighborhood TEXT
+);
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (1, "Eixample", "la Sagrada familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (2, "Sant Marta", "el Besa's i el Maresme");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (3, "Gracia", "el Camp d'enGrassot i Gra cia Nova");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (4, "Ciutat Vella", " El Barri Gartic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (5, "Ciutat Vella", " El Barri Gartic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (6, "Ciutat Vella", " la Barceloneta");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (7, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (8, "Gracia", "el Camp d'en Grasssot i Gra cia Nova");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (9, "Ciutat", "Sant Perer, Santa Caterina i la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (10, "Ciutat", "el Camp d'en Grassot i Gra cia Nova");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (11, "Eixample", "la Drete de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (12, "Ciutat Vella", " el Barri Gartic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (13, "Gracia", "Vallcarca u els Penitents");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (14, "Eixample", "la Dreta de I'Example");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (15, "Sant Marta", "el Poblenou");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (16, "Cuitat", "el Raval");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (17, "Gracia", "el Camp d'en Grassot i Gra cia Nova");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (18, "Sants-Montjuac", "el Poble Sec");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (19, "Sants-Montjuac", "el Poble Sec");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (20, "Eixample", "la sagrada familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (21, "Santa Marta", "el Clot");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (22, "Sants-Montjuac", "el Poble Sec");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (23, "Eixample", "Sant Antoni");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (24, "Ciutat Vella", "el Rival");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (25, "Ciutat Vella", "Sant Pere, Santa Caterina i la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (26, "Gracia", "el Camp d'en Grassot i Gracia Nova"); 
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (27, "Sarria-Sant Gervasi", "Vallvidrera, el Tibidabo i les Planes");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (28, "Gracia", "el Camp d'en Grassot i Gracia Nova");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (29, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (30, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (31, "Sants-Montijuac", "Sants");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (32, "Sant Marta", "Diagonal Mar i el Front Mara-tim del Poblenou");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (33, "Sant Marta", "el Poblenou");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (34, "Les Corts", "Pedralbes");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (35, "Eixample", "la Sagrada Famalia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (36, "Ciutat Vella", "el Barri Gatic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (37, "Eixample", "Sant Antoni");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (38, "Horta- Guinarda", "el Guinarda");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (39, "Ciutat Vella", "Sant Here, Santa Caterina I la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (40, "Eixample", "i'Antiga Esquerra de i'Eiaxample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (41, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (42, "Ciutat Vella", "Sant Here, Santa Caterina I la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (43, "Sant Marta", "el Clot");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (44, "Sant Marta", "el Clot");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (45, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (46, "Sants-Montjuac", "la Bordeta");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (47, "Sant Marta", "el Clot");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (48, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (49, "Les Corts", "Pedrolbes");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (50, "Eixample", "i'Antiga Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (51, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (52, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (53, "Sant Marta", "Diagonal Mar i el Front Maratim del Poblenou");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (54, "Eixample", "I'Antiga Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (55, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (56, "Sants-Montjuac", "el Poble Sec");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (57, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (58, "Gracia", "la Salut");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (59, "Ciutat Vella", "Sant Pere, Santa Caterina i la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (60, "Gracia", "Vallcarca i els Penitents");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (61, "Eixample", "el Fort Pienc");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (62, "Sarria-Sant Gervasi", "Sant Gervasi-Galvany");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (63, "Ciutat Vella", "la Barceloneta");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (64, "Ciutat Vella", "el Barri Gatic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (65, "Sant Marta", "Sant Marta-de Provenasias"); 
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (66, "Ciutat Vella", "el Raval");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (67, "Gracia", "Vallacarca i els Penitents");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (68, "Ciutat Vella", "el Barri Gatic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (69, "Ciutat Vella", "Sant Pere, Santa Caterina i la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (70, "Sant Marta", "el Camp de I'Arpa del Clot");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (71, "Ciutat Vella", "la Barceloneta");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (72, "Ciutat Vella", "el Barri Gatic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (73, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (74, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (75, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (76, "Gracia", "el Camp d'en Grassot i Gracia Nova"); 
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (77, "Eixample", "I'Antiga Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (78, "Eixample", "Sant Antoni");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (79, "Eixample", "I'Antiga Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (80, "Eixample", "la Nova Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (81, "Sarria-Sant Gervasi", "Sarria");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (82, "Ciutat Vella", "el Raval");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (83, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (84, "Gracia", "el Coll");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (85, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (86, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (87, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (88, "Eixample", "Sant Antoni");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (89, "Sant Marta", "el Parc i la Llacuna del Poblenou");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (90, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (91, "Gracia", "la Villa de Gracia"); 
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (92, "Sants-Montjuac", "el Poble Sec");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (93, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (94, "Gracia", "el Camp d'en Grassot i Gracia Nova"); 
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (95, "Sants-Montjuac", "el Poble Sec");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (96, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (97, "Nou Barris", "Can Preguera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (98, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (99, "Ciutat Vella", "el Raval");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (100, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (101, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (102, "Eixample", "Sant Antoni");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (103, "Sant Marta", "el Poblenou");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (104, "Sant Marta", "la Vila Oiampica del Poblenou");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (105, "Sarria-Sant Gervasi", "Vallvidrera, el Tibidado i les Planes");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (106, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (107, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (108, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (109, "Sants-Montjuac", "la Font de la Guatlla");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (110, "Ciutat Vella", "el Barri Gatic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (111, "Eixample", "el Fort Pienc");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (112, "Eixample", "la Nova Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (113, "Ciutat Vella", "el Barri Gatic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (114, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (115, "Eixample", "la Nova Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (116, "Eixample", "I'Antiga Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (117, "Sant Marta", "Diagonal Mar i el Front Maratim del Poblenou");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (118, "Ciutat Vella", "el Raval");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (119, "Eixample", "Sant Antoni");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (120, "Eixample", "la Nova Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (121, "Ciutat Vella", "Sant Pere, Santa Caterina i la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (122, "Gracia", "el Coll");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (123, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (124, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (125, "Ciutat Vella", "Sant Pere, Santa Caterina i la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (126, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (127, "Ciutat Vella", "Sant Pere, Santa Caterina i la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (128, "Ciutat Vella", "el Raval");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (129, "Eixample", "la Nova Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (130, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (131, "Sants-Montjuac", "el Poble Sec");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (132, "Sants-Montjuac", "la Font de la Guatlla");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (133, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (134, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (135, "Ciutat Vella", "el Barri Gatic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (136, "Sarria-Sant Gervasi", "el Putext i el Farra");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (137, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (138, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (139, "Eixample", "el Fort Pienc");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (140, "Gracia", "la Villa de Gracia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (141, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (142, "Eixample", "I'Antiga Esquerra de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (143, "Eixample", "la Sagrada Familia");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (144, "Ciutat Vella", "el Barri Gatic");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (145, "Sants-Montjuac", "la Font de la Guatlla");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (146, "Ciutat Vella", "Sant Pere, Santa Caterina i la Ribera");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (147, "Ciutat Vella", "el Raval");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (148, "Eixample", "el Fort Pienc");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (149, "Eixample", "la Dreta de I'Eixample");
+INSERT INTO neighborhood (host_info_id, neighborhood_group, neighborhood) VALUES (150, "Eixample", "Sant Antoni");
+
+
+
+
+
+CREATE TABLE rooms(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    neighborhood_id INTEGER,
+    room_type TEXT,
+    priceUSD INTEGER,
+    min_nights INTEGER
+);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (1,"Entire home/apt", 102, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (2,"Entire home/apt", 220, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (3,"Entire home/apt", 144, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (4,"Entire home/apt", 214, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (5,"Private room", 93, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (6,"Private room", 36, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (7,"Entire home/apt", 50, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (8,"Entire home/apt", 110, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (9,"Entire home/apt", 28, 128);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (10,"Entire home/apt", 144, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (11,"Entire home/apt", 105, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (12,"Private room", 49, 31);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (13,"Entire home/apt", 250, 5);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (14,"Entire home/apt", 96, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (15,"Entire home/apt", 100, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (16,"Entire home/apt", 136, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (17,"Entire home/apt", 309, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (18,"Entire home/apt", 65, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (19,"Entire home/apt", 65, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (20,"Entire home/apt", 122, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (21,"Entire home/apt", 103, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (22, "Entire home/apt", 107, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (23, "Private room", 46, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (24, "Entire home/apt", 245, 6);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (25, "Private room", 70, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (26, "Entire home/apt", 35, 90);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (27, "Entire home/apt", 166, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (28, "Entire home/apt", 99, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (29, "Entire home/apt", 197, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (30, "Entire home/apt", 192, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (31, "Private room", 38, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (32, "Private room", 75, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (33, "Entire home/apt", 80, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (34, "Private room", 55, 30);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (35, "Entire home/apt", 206, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (36, "Entire home/apt", 44, 31);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (37, "Private room", 44, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (38, "Private room", 15, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (39, "Private room", 65, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (40, "Private room", 33, 15);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (41, "Entire home/apt", 193, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (42, "Entire home/apt", 223, 15);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (43, "Entire home/apt", 98, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (44, "Entire home/apt", 106, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (45, "Entire home/apt", 193, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (46, "Private room", 27, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (47, "Entire home/apt", 36, 32);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (48, "Entire home/apt", 200, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (49, "Private room", 46, 7);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (50, "Entire home/apt", 161, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (51, "Entire home/apt", 193, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (52, "Entire home/apt", 28, 31);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (53, "Entire home/apt", 301, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (54, "Private room", 38, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (55, "Entire home/apt", 144, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (56, "Entire home/apt", 85, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (57, "Entire home/apt", 69, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (58, "Private room", 55, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (59, "Private room", 42, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (60, "Private room", 40, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (61, "Entire home/apt", 109, 7); 
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (62, "Entire home/apt", 175, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (63, "Entire home/apt", 64, 33);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (64, "Entire home/apt", 65, 50);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (65, "Entire home/apt", 89, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (66, "Entire home/apt", 27, 32);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (67, "Private room", 27, 7); 
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (68, "Private room", 60, 31);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (69, "Private room", 45, 20);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (70, "Entire home/apt", 124, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (71, "Private room", 60, 31);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (72, "Entire home/apt", 900, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (73, "Entire home/apt", 149, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (74, "Entire home/apt", 124, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (75, "Entire home/apt", 92, 7);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (76, "Entire home/apt", 51, 31);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (77, "Entire home/apt", 309, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (78, "Entire home/apt", 60, 10);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (79, "Entire home/apt", 125, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (80, "Entire home/apt", 94, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (81, "Entire home/apt", 174, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (82, "Entire home/apt", 90, 32);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (83, "Entire home/apt", 144, 7);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (84, "Entire home/apt", 83, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (85, "Private room", 17, 8);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (86, "Private room", 55, 5);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (87, "Private room", 45, 5);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (88, "Entire home/apt", 500, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (89, "Entire home/apt", 84, 7);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (90, "Entire home/apt", 499, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (91, "Entire home/apt", 75, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (92, "Entire home/apt", 73, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (93, "Entire home/apt", 155, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (94, "Entire home/apt", 89, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (95, "Entire home/apt", 85, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (96, "Private room", 30, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (97, "Private room", 60, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (98, "Private room", 12, 6);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (99, "Private room", 35, 14);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (100, "Entire home/apt", 101, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (101, "Entire home/apt", 99, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (102, "Private room", 20, 31);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (103, "Entire home/apt", 38, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (104, "Entire home/apt", 145, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (105, "Entire home/apt", 91, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (106, "Entire home/apt", 400, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (107, "Entire home/apt", 400, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (108, "Entire home/apt", 400, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (109, "Private room", 30, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (110, "Private room", 75, 31);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (111, "Entire home/apt", 101, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (112, "Entire home/apt", 124, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (113, "Entire home/apt", 93, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (114, "Entire home/apt", 118, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (115, "Private room", 32, 32);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (116, "Entire home/apt", 80, 5);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (117, "Entire home/apt", 71, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (118, "Entire home/apt", 60, 32);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (119, "Entire home/apt", 128, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (120, "Entire home/apt", 101, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (121, "Entire home/apt", 160, 28);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (122, "Entire home/apt", 77, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (123, "Private room", 47, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (124, "Entire home/apt", 130, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (125, "Entire home/apt", 88, 32);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (126, "Entire home/apt", 128, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (127, "Entire home/apt", 360, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (128, "Entire home/apt", 75, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (129, "Entire home/apt", 74, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (130, "Private room", 40, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (131, "Entire home/apt", 63, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (132, "Entire home/apt", 66, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (133, "Private room", 42, 7);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (134, "Entire home/apt", 89, 30);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (135, "Entire home/apt", 125, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (136, "Entire home/apt", 397, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (137, "Entire home/apt", 94, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (138, "Private room", 36, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (139, "Private room", 45, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (140, "Entire home/apt", 126, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (141, "Entire home/apt", 103, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (142, "Entire home/apt", 200, 5);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (143, "Entire home/apt", 96, 3);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (144, "Private room", 25, 30);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (145, "Private room", 50, 32);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (146, "Entire home/apt", 115, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (147, "Entire home/apt", 123, 4);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (148, "Private room", 28, 1);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (149, "Entire home/apt", 200, 2);
+INSERT INTO rooms (neighborhood_id, room_type, priceUSD, min_nights) VALUES (150, "Private room", 33, 2);
+
+
+
+
+
+
+
+CREATE TABLE available_licence(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+    rooms_id INTEGER,
+    licenceHUTB INTEGER,
+    last_review TEXT
+);
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (1, 002062, "2021-25-10");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (2, 005057, "2021-27-10");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (3, 001722, "2020-22-02");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (4, 001506, "2021-15-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (5, NULL, "2019-12-05");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (6, NULL, "2021-02-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (7, 001282, "2021-29-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (8, 003549, "2015-13-10");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (9, 000000, "2021-30-4");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (10, 001723, "2020-26-10");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (11, 005863, "2021-14-3");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (12, NULL, "2021-10-8");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (13, 007966, "2011-23-6");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (14, 002424, "2021-18-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (15, 000173, "2021-06-12");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (16, 001779, "2021-08-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (17, 001722, "2020-02-02");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (18, 005825, "2021-14-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (19, 005832, "2020-30-09");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (20, 001363, "2021-19-09"); 
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (21, 000083, "2021-11-04");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (22, 004026, "2021-11-17");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (23, NULL, "2021-01-10");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (24, 013579, "2021-07-23");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (25, NULL, "2021-11-13");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (26, NULL, "2021-08-25");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (27, 009025, "2021-08-25");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (28, 003671, "2021-10-19");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (29, 000333, "2021-11-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (30, 000328, "2021-28-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (31, 012603, "2021-12-05");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (32, 000000, "2021-07-09");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (33, NULL, "2021-09-23");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (34, NULL, "2019-08-27");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (35, 000329, "2021-11-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (36, NULL, "2017-09-20");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (37, NULL, "2019-10-18");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (38, 000000, "2021-11-22");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (39, NULL, "2019-10-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (40, 000000, "2021-09-17");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (41, 000326, "2021-11-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (42, NULL, "2020-08-29");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (43, 004663, "2020-01-06");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (44, 004664, "2019-08-21");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (45, 000327, "2021-11-08");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (46, 000000, "2018-09-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (47, NULL, "2021-10-18");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (48, 005119, "2021-11-05");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (49, NULL, "2016-06-09");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (50, 506707, "2021-11-13");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (51, 000325, "2021-11-14");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (52, 01295238, "2021-10-14");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (53, 000926, "2021-11-14");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (54, 000000, "2021-11-18");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (55, 004315, "2020-08-01");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (56, 009804, "2021-10-27");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (57, 010932, "2021-12-4");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (58, 000000, "2019-10-09");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (59, NULL, "2019-10-06");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (60, NULL, "2019-09-25");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (61, 003754, "2021-11-19");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (62, 005673, "2019-12-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (63, 000001, "2015-12-21");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (64, NULL, "2020-02-16");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (65, 009465, "2021-10-22");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (66, NULL, "2021-11-27");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (67, NULL, "2021-09-01");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (68, NULL, "2021-11-29");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (69, NULL, "2021-10-22");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (70, 000806, "2020-10-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (71, NULL, "2021-10-05");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (72, 000000, "2021-10-03");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (73, 004071, "2021-10-26");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (74, 004072, "2021-11-11");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (75, 001129, "2021-10-12");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (76, NULL, "2018-08-15");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (77, 003208, "2021-11-19");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (78, 004121, "2021-09-19");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (79, 004184, "2021-11-21");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (80, 012040, "2021-10-18");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (81, 012910, "2021-11-15");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (82, NULL, "2020-01-03");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (83, 780374, "2021-09-04");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (84, 004405, "2021-12-03");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (85, 000000, "2020-02-27");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (86, 000000, "2020-03-03");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (87, 000000, "2020-04-04");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (88, 001765, "2020-02-29");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (89, 005731, "2021-12-04");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (90, 014728, "2020-03-15");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (91, 012627, "2021-11-22");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (92, 004770, "2021-11-19");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (93, 008740, "2019-11-16");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (94, 011450, "2021-08-31");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (95, 004655, "2021-11-17");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (96, NULL, "2014-07-29");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (97, NULL, "2019-12-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (98, 000000, "2020-06-30");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (99, NULL, "2021-11-10"); 
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (100, 003905, "2021-11-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (101, 010749, "2021-12-06");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (102, NULL, "2021-10-17");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (103, 007075, "2019-12-13");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (104, 002887, "2021-11-18");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (105, 007301, "2021-11-05");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (106, 007447, "2021-08-29");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (107, 009898, "2020-03-02");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (108, 008572, "2020-03-09");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (109, NULL, "2015-07-06");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (110, NULL, "2013-10-15");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (111, 009578, "2021-11-20");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (112, 005271, "2021-11-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (113, 002534, "2021-11-28");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (114, 001176, "2021-11-23");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (115, NULL, "2021-09-04");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (116, 001409, "2015-08-19");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (117, 003912, "2021-11-30");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (118, NULL, "2018-08-23");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (119, 001094, "2021-10-29");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (120, 004112, "2021-11-26");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (121, NULL, NULL);
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (122, 004404, "2021-12-07");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (123, 000000, "2021-09-07");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (124, 0220120109, "2019-08-18");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (125, NULL, "2021-09-15");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (126, 011183, "2021-12-06");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (127, 000828, "2021-10-17");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (128, 002975, "2020-03-13");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (129, 001948, "2021-12-05"); 
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (130, NULL, "2021-12-06");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (131, 006818, "2021-09-25");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (132, 007048, "2021-11-17");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (133, 000000, "2021-12-01");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (134, NULL, "2021-09-04");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (135, 000945, "2021-11-17"); 
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (136, 007016, "2021-11-06");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (137, 005602, "2021-11-26");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (138, NULL, "2019-07-27");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (139, NULL, "2019-11-30");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (140, 012497, "2021-11-21");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (141, 001132, "2021-11-04");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (142, 01680280, "2021-11-03");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (143, 002983, "2021-12-06");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (144, NULL, "2021-12-02");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (145, NULL, "2020-02-29");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (146, 002370, "2021-11-17");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (147, 003091, "2021-10-30");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (148, NULL, "2017-11-01");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (149, 004073, "2021-11-15");
+INSERT INTO available_licence (rooms_id, licenceHUTB, last_review) VALUES (150, 000000, "2019-08-18");
+
+
+
+
+
+
+
+----------------------------------------------Queries-----------------------------------------------
+/* Which neighborhood is the most expensive to least */
+
+SELECT 
+	n.neighborhood,
+	r.priceUSD
+FROM
+	neighborhood AS n
+INNER JOIN
+	rooms AS r
+ON 
+	n.host_info_id=r.neighborhood_id
+ORDER BY
+   	priceUSD DESC;
+
+/* The min. amount of days needed to stay at selected Airbnb */
+
+SELECT
+	n.neighborhood_group,
+	n.neighborhood,
+	r.min_nights
+FROM 
+	neighborhood AS n
+INNER JOIN
+	rooms AS r
+ON
+	n.id=r.neighborhood_id
+ORDER BY
+	r.min_nights
+
+
+/* The average price for a Entire Home/apt  */
+
+SELECT
+    room_type,
+    AVG(priceUSD)
+FROM
+    rooms
+WHERE 
+    room_type = "Entire home/apt"
+
+/* The average price for a Private room */
+
+SELECT
+    room_type,
+    AVG(priceUSD)
+FROM
+    rooms
+WHERE 
+    room_type = "Private room"
+
+/* Do certain neighborhood groups have a higher price than others */
+
+SELECT
+	n.neighborhood_group,
+	SUM(priceUSD) AS total_price
+FROM
+	neighborhood AS n
+INNER JOIN
+	rooms AS r
+GROUP BY 
+    neighborhood_group
+
+/* Who has a valid licence to host a person(s) */
+
+SELECT 
+	hi.host_name,
+	ai.licenceHUTB
+FROM
+	host_info AS hi
+INNER JOIN
+	available_licence AS ai
+ON
+	hi.id= ai.rooms_id
+
+/* Who doesn't have a licence or is exempt */
+
+SELECT 
+	hi.host_name,
+	ai.licenceHUTB
+FROM
+	host_info AS hi
+INNER JOIN
+	available_licence AS ai
+ON
+	hi.id= ai.rooms_id
+WHERE
+	licenceHUTB IS NULL
+
+/* Which nieghborhood group doesnt have the most licences */
+
+SELECT
+	n.neighborhood_group,
+	ai.licenceHUTB
+FROM
+	neighborhood AS n
+INNER JOIN 
+	available_licence AS ai
+ON
+	n.id=ai.rooms_id
+WHERE
+	licenceHUTB IS NULL
+
+/* The last review for each listing 
+
+SELECT 
+	n.neighborhood,
+	r.priceUSD,	
+	ai.last_review
+FROM
+	neighborhood AS n
+INNER JOIN 
+	rooms AS r
+ON
+	n.id=r.neighborhood_id
+INNER JOIN
+	available_licence as ai
+ON 
+	r.id=ai.rooms_id
+	
